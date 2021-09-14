@@ -1,0 +1,140 @@
+h1 {
+    color:#22d12b;
+}
+
+header {
+    padding: 10px;
+}
+
+a {
+    color: inherit;
+}
+
+a.product-card,
+a.product-card:hover {
+    color:"inherit" !important;
+}
+
+ul {
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.card {
+    transition: transform .2s !important;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.1) !important;
+    cursor: pointer;
+}
+
+footer {
+    
+    display: block;
+    left: 0;
+    padding-top: 10px;
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    height:260px;
+    background-color: #f3ded0;
+}
+
+.navbar-brand {
+    font-size:30px;
+    padding-right: 30px !important;
+   
+}
+.navbar  {
+    background-color: #435545;
+}
+.subtitle{
+    color:#2b2b2b;
+    text-align:center;
+    font-size:50px;
+    margin:15px;
+    margin-bottom:30px;
+}
+
+.cart_icon{
+    width:35px;
+    height:auto;
+}
+
+.cart_total {
+    text-align: center;
+    width: 180px;
+    float: right;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.space_offset {
+    margin-top: 5px;
+    margin-right:5px;
+}
+
+.footer_items {
+    list-style-type: none;
+    color: black;
+}
+
+.footerSubtitle {
+    text-align: center;
+    font-size: 18px;
+    color:rgb(63, 63, 63);
+}
+.prod-img {
+    margin-top: 50px;
+    width:400px;
+    height:400px;
+}
+
+.prod-subtitle {
+    color:#2b2b2b;
+    text-align:center;
+    font-size:40px;
+    margin:15px;
+    margin-bottom:30px;
+}
+#bottom {
+    background-color: #435545;
+}
+#container {
+    min-height: 100%;
+    position:relative;
+}
+#footerContainer {
+    margin-top: 30px;
+}
+
+#formSubmit {
+    background-color: black;
+    border-color: black;
+}
+
+#trendingSection {
+    margin-bottom: 100px;
+}
+/* Set the size of the div element that contains the map */
+#map {
+    height: 350px;
+    width: 500px;
+    padding: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+#about_us_info {
+    width: 500px;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 8px 8px;
+    
+
+}
