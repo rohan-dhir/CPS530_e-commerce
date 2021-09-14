@@ -1,6 +1,6 @@
 <?php
 
-$myconn = new mysqli("localhost","r4dhir","VoyFram5","r4dhir");
+$myconn = new mysqli("localhost","USERNAME","PASSWORD","DBNAME");
 
 if ($myconn -> connect_error)
 {
